@@ -36,11 +36,7 @@ public class Calc {
                         result = first.ValueOfNumber() * second.ValueOfNumber();
                         break;
                     case ("/"):
-                        if (first.ValueOfNumber() % second.ValueOfNumber() == 0) {
-                            result = first.ValueOfNumber() / second.ValueOfNumber();
-                        } else {
-                            throw new ArithmeticException("Результат от деления не целый, калькулятор может работать только с целыми числами");
-                        }
+                        result = first.ValueOfNumber() / second.ValueOfNumber();
 
                         break;
                     default:
