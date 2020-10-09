@@ -37,7 +37,6 @@ public class Calc {
                         break;
                     case ("/"):
                         result = first.ValueOfNumber() / second.ValueOfNumber();
-
                         break;
                     default:
                         throw new UnsupportedOperationException("Неверный знак");
